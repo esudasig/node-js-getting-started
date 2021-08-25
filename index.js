@@ -18,7 +18,6 @@ express()
        id: 2,
        name: "screwdriver",
      },
-     ,
      {
        id: 3,
        name: "wrench",
