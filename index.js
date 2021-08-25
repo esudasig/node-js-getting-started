@@ -25,5 +25,8 @@ express()
    ];
 
   res.json(products);
+  
+  req.query.callback();
+  
 })
   .listen(PORT, () => console.log(`Listening on ${ PORT }`))
